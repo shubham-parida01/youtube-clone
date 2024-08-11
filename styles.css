@@ -1,10 +1,11 @@
 .container{
     display: grid;
+    padding: 10px;
 }
 
 p{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Rubik";
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -33,6 +34,7 @@ p{
 }
 
 .buy-button{
+    font-family: "Rubik";
     padding-left: 16px;
     padding-right: 16px;
     margin: auto;
@@ -45,4 +47,23 @@ p{
     font-weight: bold;
     border-radius: 16px;
     cursor: pointer;
+}
+
+
+.question-container{
+    margin-top: 100px;
+}
+.model{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+}
+.description{
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.delivery{
+    text-decoration: underline;
 }
