@@ -1,69 +1,29 @@
-.container{
-    display: grid;
-    padding: 10px;
+.thumbnail-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: left;
+    vertical-align: middle;
 }
 
-p{
-    text-align: center;
-    font-family: "Rubik";
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.new{
-    font-size: 15px;
-    color: rgb(228, 160, 71);
-    font-weight: 550;
-}
-
-.macbook-pro{
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 10px;
-}
-
-.supercharged{
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 4px;
-}
-
-.cost{
-    font-size: 17px;
-    margin-top: 10px;
-}
-
-.buy-button{
-    font-family: "Rubik";
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: rgb(0, 113, 227);
+.search-bar{
+    vertical-align: middle;
+    height: 30px;
+    width: 200px;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 8px;
+}
+
+.tweet-button{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: none;
+    background-color: rgb(29, 155, 240);
     color: white;
+    border-radius: 20px;
     font-weight: bold;
-    border-radius: 16px;
-    cursor: pointer;
 }
 
-
-.question-container{
-    margin-top: 100px;
-}
-.model{
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 600;
-}
-.description{
-    font-family: Montserrat;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.delivery{
-    text-decoration: underline;
-}
