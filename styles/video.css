@@ -1,0 +1,37 @@
+.thumbnail{
+    width: 100%;
+}
+
+.video-details{
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    margin-top: 5px;
+}
+
+.channel-picture{
+    width: 36px;
+    border-radius: 100%;
+}
+
+.video-info{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #606060;
+}
+
+.video-title{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.video-author{
+    margin-top: 10px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
