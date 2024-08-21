@@ -35,3 +35,22 @@
     column-gap: 16px;
     row-gap: 40px;
 }
+
+.thumbnail-container{
+    position: relative;
+}
+.video-time{
+    background-color: rgba(0, 0, 0,0.9);
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+}

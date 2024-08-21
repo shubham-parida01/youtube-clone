@@ -11,6 +11,7 @@
     border-bottom-width: 1px ;
     border-bottom-style: solid;
     border-bottom-color: rgb(228,228 , 228);
+    z-index: 100;
 }
 
 .search-bar{
@@ -108,5 +109,24 @@
 
 .my-channel{
     height: 32px;
+    border-radius: 100%;
+}
+
+.notifications-icon-container{
+    position: relative;
+}
+
+.notifications-count{
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    color: white;
+    background-color: rgb(200, 0, 0);
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-radius: 100%;
 }
