@@ -26,11 +26,14 @@
     font-size: 14px;
     font-weight: 500;
     cursor:pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .video-author{
     margin-top: 10px;
-    cursor: pointer;
+    color: #606060;
+    text-decoration: none;
 }
 
 .video-grid{
@@ -58,4 +61,8 @@
     font-size: 12px;
     font-weight: 500;
     cursor: text;
+}
+
+a{
+    text-decoration: none;
 }
