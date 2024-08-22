@@ -16,7 +16,6 @@
 }
 
 .video-info{
-    font-family: 'Roboto';
     font-size: 12px;
     color: #606060;
 }
@@ -38,10 +37,29 @@
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     column-gap: 16px;
     row-gap: 40px;
 }
+
+@media (man-width:750px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:751px) and (max-width:1199px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1200px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 
 .thumbnail-container{
     position: relative;
@@ -57,7 +75,6 @@
     padding-bottom: 2px;
     padding-left: 4px;
     padding-right: 4px;
-    font-family: 'Roboto';
     font-size: 12px;
     font-weight: 500;
     cursor: text;
