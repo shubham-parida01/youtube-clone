@@ -1,5 +1,6 @@
 .thumbnail{
     width: 100%;
+    cursor: pointer;
 }
 
 .video-details{
@@ -11,6 +12,7 @@
 .channel-picture{
     width: 36px;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .video-info{
@@ -23,10 +25,12 @@
     color: black;
     font-size: 14px;
     font-weight: 500;
+    cursor:pointer;
 }
 
 .video-author{
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .video-grid{
@@ -43,7 +47,7 @@
     background-color: rgba(0, 0, 0,0.9);
     color: white;
     position: absolute;
-    bottom: 7px;
+    bottom: 9px;
     right: 5px;
     border-radius: 2px;
     padding-top: 2px;
