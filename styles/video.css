@@ -6,7 +6,7 @@
 .video-details{
     display: grid;
     grid-template-columns: 48px 1fr;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .channel-picture{
