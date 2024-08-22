@@ -6,3 +6,23 @@
     background-color: white;
     width: 72px;
 }
+
+.sidebar-link{
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: #eeeeee;
+}
+
+.sidebar-icon{
+    height: 24px;
+}
